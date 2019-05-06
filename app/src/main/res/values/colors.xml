@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="maintextColor">#454748</color>
+    <color name="maintextColorone">#888888</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="black">#000000</color>
+    <color name="exper">#A4A5A8</color>
+    <color name="elipse">#888888</color>
+    <color name="elipses">#FF6A6A</color>
+    <color name="backgroundTop">#8EB1BE</color>
+    <color name="backgrounddown">#A389B3</color>
+    <color name="rgb53_99">#888888</color>
+    <color name="select">#94D71E</color>
+    <color name="selecteight">#DBD915</color>
+    <color name="selectsix">#F7A32B</color>
+    <color name="selectfour">#F85C38</color>
+    <color name="white">#ffffff</color>
+    <color name="notsee">#00000000</color>
+</resources>

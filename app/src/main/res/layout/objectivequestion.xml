@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_gradient"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:id="@+id/tab1"
+        android:background="@drawable/main_background"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+
+        android:layout_height="271px">
+
+        <TextView
+         android:layout_marginTop="20dp"
+            android:id="@+id/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="一面评价表(应届生)"
+            android:textColor="#0A0A0A"
+            android:textSize="36px" />
+        <View
+            android:id="@+id/view1"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/h1"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#FFFFFF" />
+        <LinearLayout
+           android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/view1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/ceo_recycierview"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/face_time"
+                android:gravity="center"
+                android:layout_weight="2"
+                android:textColor="#0A0A0A"
+                android:textSize="34px"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="面试时间:2018.8.8"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+            <LinearLayout
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/main_background"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        <RelativeLayout
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+     <LinearLayout
+        android:id="@+id/AllSize"
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <LinearLayout
+             android:orientation="vertical"
+             android:layout_weight="1.14"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content">
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+      android:drawablePadding="5dp"
+        android:drawableTop="@mipmap/score"
+        android:textColor="#0A0A0A"
+        android:textSize="34px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="评分要素"/>
+
+
+         </LinearLayout>
+         <View
+             android:layout_height="match_parent"
+             android:layout_width="1dp"
+             android:background="#ffffff"
+
+             />
+         <LinearLayout
+             android:orientation="vertical"
+             android:layout_weight="2.13"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content">
+         <TextView
+             android:layout_gravity="center"
+             android:layout_marginTop="40dp"
+             android:gravity="center"
+             android:drawablePadding="5dp"
+             android:drawableTop="@mipmap/problem"
+             android:textColor="#0A0A0A"
+             android:textSize="34px"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="参考问题"/>
+
+
+
+         </LinearLayout>
+         <View
+             android:layout_height="match_parent"
+             android:layout_width="1dp"
+             android:background="#ffffff"
+             />
+         <LinearLayout
+             android:gravity="center"
+             android:orientation="vertical"
+             android:layout_weight="7"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content">
+
+             <TextView
+                 android:layout_marginTop="10dp"
+                 android:drawablePadding="5dp"
+                 android:drawableTop="@mipmap/reference"
+                 android:textColor="#0A0A0A"
+                 android:textSize="34px"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="参考标准"/>
+             <View
+                 android:layout_marginTop="15dp"
+                 android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:background="#FFFFFF" />
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+         <LinearLayout
+
+             android:orientation="vertical"
+             android:layout_weight="1"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content">
+         <TextView
+             android:layout_marginBottom="10dp"
+             android:layout_marginTop="10dp"
+             android:layout_gravity="center"
+             android:textColor="#0A0A0A"
+             android:textSize="33px"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="出色(10分)"/>
+
+
+
+
+         </LinearLayout>
+         <LinearLayout
+             android:orientation="vertical"
+             android:layout_weight="1"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content">
+             <TextView
+                 android:layout_marginBottom="10dp"
+                 android:layout_marginTop="10dp"
+                 android:layout_gravity="center"
+                 android:textColor="#0A0A0A"
+                 android:textSize="33px"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="优秀(8分)"/>
+
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:orientation="vertical"
+             android:layout_weight="1"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content">
+             <TextView
+                 android:layout_marginBottom="10dp"
+                 android:layout_marginTop="10dp"
+                 android:layout_gravity="center"
+                 android:textColor="#0A0A0A"
+                 android:textSize="33px"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="标准(6分)"/>
+
+
+         </LinearLayout>
+
+         <LinearLayout
+
+             android:orientation="vertical"
+             android:layout_weight="1"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content">
+             <TextView
+                 android:layout_marginBottom="10dp"
+                 android:layout_marginTop="10dp"
+                 android:layout_gravity="center"
+                 android:textColor="#0A0A0A"
+                 android:textSize="33px"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="不及格(4  分)"/>
+
+         </LinearLayout>
+     </LinearLayout>
+         </LinearLayout>
+
+
+     </LinearLayout>
+
+        </RelativeLayout>
+            <android.support.v7.widget.RecyclerView
+                android:layout_below="@id/AllSize"
+                android:id="@+id/objectRecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

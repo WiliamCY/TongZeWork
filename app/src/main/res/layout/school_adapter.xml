@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/schools"
+            android:drawablePadding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="64px"
+            android:drawableLeft="@mipmap/main_three_s"
+            android:gravity="center_vertical"
+            android:text="加里敦大学"
+            android:textColor="@color/black"
+            android:textSize="31px" />
+        <TextView
+            android:id="@+id/times"
+            android:textSize="31px"
+            android:gravity="center_horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="64px"
+            android:text="2012---2016"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/married"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      美术"/>
+        <TextView
+            android:id="@+id/education_name"
+            android:paddingLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      高中"/>
+        <TextView
+            android:id="@+id/full_time"
+            android:paddingLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      全日制"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/h1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#FFFFFF" />
+</LinearLayout>

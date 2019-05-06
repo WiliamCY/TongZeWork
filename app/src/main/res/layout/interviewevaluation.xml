@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layput_one1"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="180px">
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/ObjectiveQuestion"
+            android:layout_height="120px"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/select_usermessage_background"
+            android:gravity="center"
+            android:text="客观题"
+            android:textSize="36px" />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/OtherQuestions"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="120px"
+            android:layout_margin="20dp"
+            android:background="@drawable/select_usermessage_background"
+            android:gravity="center"
+            android:text="其他问题"
+            android:textSize="36px" />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/subjectiveItem"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="120px"
+            android:layout_margin="20dp"
+            android:background="@drawable/select_usermessage_background"
+            android:gravity="center"
+            android:text="主观题"
+            android:textSize="36px" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/FinalJudgment"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="120px"
+            android:layout_margin="20dp"
+            android:background="@drawable/select_usermessage_background"
+            android:gravity="center"
+            android:text="最终评判"
+            android:textColor="#FFFFFF"
+            android:textSize="36px" />
+
+    </LinearLayout>
+    <View
+        android:id="@+id/view1"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/layput_one1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#FFFFFF" />
+    <FrameLayout
+        android:layout_below="@+id/view1"
+        android:layout_gravity="right"
+        android:id="@+id/containerss"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+</RelativeLayout>

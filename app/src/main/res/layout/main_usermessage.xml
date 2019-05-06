@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="基本信息"
+            android:textColor="#0A0A0A"
+            android:textSize="38px"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50px">
+            <TextView
+                android:id="@+id/come_time"
+                android:drawablePadding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="64px"
+                android:drawableLeft="@mipmap/main_one"
+                android:gravity="center_vertical"
+                android:text="离职：一周以内"
+                android:textColor="@color/maintextColor"
+                android:textSize="31px" />
+            <View
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_height="39px"
+                android:layout_width="0.5px"
+                android:background="#DFDFDF"
+                />
+
+            <TextView
+                android:id="@+id/work_years"
+                android:drawablePadding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="64px"
+                android:drawableLeft="@mipmap/main_two"
+                android:gravity="center_vertical"
+                android:text="3年经验"
+                android:textColor="@color/maintextColor"
+                android:textSize="31px" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50px">
+            <TextView
+                android:id="@+id/manage_years"
+                android:drawablePadding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="64px"
+                android:drawableLeft="@mipmap/main_three"
+                android:gravity="center_vertical"
+                android:text="1年工作经验"
+                android:textColor="@color/maintextColor"
+                android:textSize="31px" />
+            <View
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_height="39px"
+                android:layout_width="0.5px"
+                android:background="#DFDFDF"
+                />
+
+            <TextView
+                android:id="@+id/school"
+                android:drawablePadding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="64px"
+                android:drawableLeft="@mipmap/main_four"
+                android:gravity="center_vertical"
+                android:text="加里敦大学"
+                android:textColor="@color/maintextColorone"
+                android:textSize="31px" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50px">
+            <TextView
+                android:id="@+id/education_name"
+                android:drawablePadding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="64px"
+                android:drawableLeft="@mipmap/main_five"
+                android:gravity="center_vertical"
+                android:text="大专学历"
+                android:textColor="@color/maintextColorone"
+                android:textSize="31px" />
+            <View
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_height="39px"
+                android:layout_width="0.5px"
+                android:background="#DFDFDF"
+                />
+
+            <TextView
+                android:id="@+id/major"
+                android:drawablePadding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="64px"
+                android:drawableLeft="@mipmap/main_six"
+                android:gravity="center_vertical"
+                android:text="行政管理"
+                android:textColor="@color/maintextColorone"
+                android:textSize="31px" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50px">
+            <TextView
+                android:id="@+id/sendout"
+                android:drawablePadding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="64px"
+                android:drawableLeft="@mipmap/main_seven"
+                android:gravity="center_vertical"
+                android:text="不接受外派外派"
+                android:textColor="@color/maintextColorone"
+                android:textSize="31px" />
+            <View
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_height="39px"
+                android:layout_width="0.5px"
+                android:background="#DFDFDF"
+                />
+
+            <TextView
+                android:id="@+id/adjusts"
+                android:drawablePadding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="64px"
+                android:drawableLeft="@mipmap/main_right"
+                android:gravity="center_vertical"
+                android:text="不接受调剂"
+                android:textColor="@color/maintextColorone"
+                android:textSize="31px" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="157px"
+            android:layout_height="wrap_content"
+            android:text="求职意向"
+            android:textColor="#0A0A0A"
+            android:textSize="38px"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50px">
+        <TextView
+            android:id="@+id/post_name"
+            android:drawablePadding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="64px"
+            android:drawableLeft="@mipmap/mainone_s"
+            android:gravity="center_vertical"
+            android:text="部门经理（第一意向）"
+            android:textColor="@color/maintextColorone"
+            android:textSize="31px" />
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="35px"
+                android:textColor="#0A0A0A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="其它意向"/>
+            <!--<TextView-->
+                <!--android:id="@+id/adjustPos"-->
+                <!--android:drawablePadding="10dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="64px"-->
+                <!--android:drawableLeft="@mipmap/main_twos"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:text="销售主管（第二意向）"-->
+                <!--android:textColor="@color/maintextColorone"-->
+                <!--android:textSize="31px" />-->
+       <android.support.v7.widget.RecyclerView
+           android:layout_marginTop="3dp"
+           android:id="@+id/adjust_add"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="154px"
+            android:layout_height="50px"
+            android:text="我的优势"
+            android:textColor="#0A0A0A"
+            android:textSize="38px"/>
+        <TextView
+            android:id="@+id/skills"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:lineSpacingExtra="18px"
+            android:layout_marginTop="10dp"
+            android:textColor="#A4A5A8"
+            android:text="忠实诚信,讲原则，说到做到，决不推卸责任；有自制力，做事情始终坚持有始有终，从不半途而废；肯学习,有问题不逃避,愿意虚心向他人学习；自信但不自负,不以自我为中心；愿意以谦虚态度赞扬接纳优越者,权威者；会用100%的热情和精力投入到工作中；平易近人。为人诚恳,性格开朗,积极进取,适应力强、勤奋好学、脚踏实地，有较强的团队精神,工作积极进取,态度认真。"
+            android:layout_width="725px"
+            android:layout_height="242px" />
+        
+        
+    </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

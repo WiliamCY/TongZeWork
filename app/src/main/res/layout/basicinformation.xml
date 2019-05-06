@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+   android:background="@drawable/main_background"
+android:layout_margin="30dp"
+    android:layout_height="wrap_content">
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+ <LinearLayout
+      android:orientation="vertical"
+      android:layout_margin="30dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+   <TextView
+       android:id="@+id/name"
+       android:layout_width="154px"
+       android:layout_height="50px"
+       android:text="作曲家"
+       android:textColor="#0A0A0A"
+       android:textSize="38px"/>
+   <LinearLayout
+       android:layout_marginTop="10dp"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="70px">
+    <TextView
+        android:id="@+id/mangers_years"
+        android:drawablePadding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="64px"
+        android:drawableLeft="@mipmap/main_three"
+        android:gravity="center_vertical"
+        android:text="1年管理年限"
+        android:textColor="@color/maintextColor"
+        android:textSize="31px" />
+    <View
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_height="39px"
+        android:layout_width="0.5px"
+        android:background="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/work_years"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="64px"
+        android:drawableLeft="@mipmap/main_two"
+        android:gravity="center_vertical"
+        android:text="3年经验"
+        android:textColor="@color/maintextColor"
+        android:textSize="31px" />
+    <View
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_height="39px"
+        android:layout_width="0.5px"
+        android:background="#FFFFFF"
+        />
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:id="@+id/ComeTime"
+        android:drawablePadding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="64px"
+        android:drawableLeft="@mipmap/main_one"
+        android:gravity="center_vertical"
+        android:text="离职：一周以内"
+        android:textColor="@color/maintextColor"
+        android:textSize="31px" />
+
+
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="70px">
+    <TextView
+        android:id="@+id/college"
+        android:drawablePadding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="64px"
+        android:drawableLeft="@mipmap/main_four"
+        android:gravity="center_vertical"
+        android:text="加里敦大学"
+        android:textColor="@color/maintextColorone"
+        android:textSize="31px" />
+    <View
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_height="39px"
+        android:layout_width="0.5px"
+        android:background="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/education"
+        android:layout_marginLeft="30dp"
+        android:drawablePadding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="64px"
+        android:drawableLeft="@mipmap/main_five"
+        android:gravity="center_vertical"
+        android:text="大专学历"
+        android:textColor="@color/maintextColorone"
+        android:textSize="31px" />
+    <View
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_height="39px"
+        android:layout_width="0.5px"
+        android:background="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/major"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="64px"
+        android:drawableLeft="@mipmap/main_six"
+        android:gravity="center_vertical"
+        android:text="行政管理"
+        android:textColor="@color/maintextColorone"
+        android:textSize="31px" />
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="70px">
+    <TextView
+        android:id="@+id/sendout"
+        android:drawablePadding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="64px"
+        android:drawableLeft="@mipmap/main_seven"
+        android:gravity="center_vertical"
+        android:text="不接受外派外派"
+        android:textColor="@color/maintextColorone"
+        android:textSize="31px" />
+    <View
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_height="39px"
+        android:layout_width="0.5px"
+        android:background="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/adjust"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="64px"
+        android:drawableLeft="@mipmap/main_right"
+        android:gravity="center_vertical"
+        android:text="不接受调剂"
+        android:textColor="@color/maintextColorone"
+        android:textSize="31px" />
+
+   </LinearLayout>
+     <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="70px">
+         <TextView
+             android:id="@+id/phone"
+             android:drawablePadding="10dp"
+             android:layout_width="wrap_content"
+             android:layout_height="64px"
+             android:drawableLeft="@mipmap/phone"
+             android:gravity="center_vertical"
+             android:text="不接受外派外派"
+             android:textColor="@color/maintextColorone"
+             android:textSize="31px" />
+         <View
+             android:layout_gravity="center"
+             android:layout_marginLeft="30dp"
+             android:layout_height="39px"
+             android:layout_width="0.5px"
+             android:background="#FFFFFF"
+             />
+
+         <TextView
+             android:id="@+id/email"
+             android:drawablePadding="10dp"
+             android:layout_marginLeft="30dp"
+             android:layout_width="wrap_content"
+             android:layout_height="64px"
+             android:drawableLeft="@mipmap/email"
+             android:gravity="center_vertical"
+             android:text="不接受调剂"
+             android:textColor="@color/maintextColorone"
+             android:textSize="31px" />
+
+     </LinearLayout>
+
+   <TextView
+       android:layout_marginTop="20dp"
+       android:layout_width="157px"
+       android:layout_height="50px"
+       android:text="求职意向"
+       android:textColor="#0A0A0A"
+       android:textSize="38px"/>
+   <LinearLayout
+       android:layout_marginTop="10dp"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="70px">
+    <TextView
+        android:id="@+id/employ_department"
+        android:drawablePadding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="64px"
+        android:drawableLeft="@mipmap/mainone_s"
+        android:gravity="center_vertical"
+        android:text="部门经理"
+        android:textColor="@color/maintextColorone"
+        android:textSize="31px" />
+    <!--<View-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:layout_height="39px"-->
+        <!--android:layout_width="0.5px"-->
+        <!--android:background="#FFFFFF"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:id="@+id/main_adapter_h10"-->
+        <!--android:drawablePadding="10dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="64px"-->
+        <!--android:drawableLeft="@mipmap/main_twos"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:text="销售主管"-->
+        <!--android:textColor="@color/maintextColorone"-->
+        <!--android:textSize="31px" />-->
+    <!--<View-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:layout_height="39px"-->
+        <!--android:layout_width="0.5px"-->
+        <!--android:background="#FFFFFF"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:id="@+id/main_adapter_h11"-->
+        <!--android:drawablePadding="10dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="64px"-->
+        <!--android:drawableLeft="@mipmap/main_three_s"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:text="销售经理"-->
+        <!--android:textColor="@color/maintextColorone"-->
+        <!--android:textSize="31px" />-->
+
+   </LinearLayout>
+
+   <TextView
+       android:layout_marginTop="20dp"
+       android:layout_width="154px"
+       android:layout_height="50px"
+       android:text="我的优势"
+       android:textColor="#0A0A0A"
+       android:textSize="38px"/>
+   <TextView
+       android:id="@+id/skill"
+       android:maxLines="2"
+       android:ellipsize="end"
+       android:lineSpacingExtra="18px"
+       android:layout_marginTop="10dp"
+       android:textColor="#A4A5A8"
+       android:text="忠实诚信,讲原则，说到做到，决不推卸责任；有自制力，做事情始终坚持有始有终，从不半途而废；肯学习,有问题不逃避,愿意虚心向他人学习；自信但不自负,不以自我为中心；愿意以谦虚态度赞扬接纳优越者,权威者；会用100%的热情和精力投入到工作中；平易近人。为人诚恳,性格开朗,积极进取,适应力强、勤奋好学、脚踏实地，有较强的团队精神,工作积极进取,态度认真。"
+       android:layout_width="725px"
+       android:layout_height="100px" />
+   <View
+       android:layout_marginTop="8dp"
+       android:id="@+id/view1"
+       android:layout_below="@+id/h1"
+       android:layout_width="match_parent"
+       android:layout_height="0.5dp"
+       android:background="#FFFFFF" />
+
+   <TextView
+       android:layout_marginTop="20dp"
+       android:layout_width="154px"
+       android:layout_height="50px"
+       android:text="地址"
+       android:textColor="#0A0A0A"
+       android:textSize="38px"/>
+   <TextView
+       android:id="@+id/current_address"
+       android:drawablePadding="10dp"
+       android:layout_width="wrap_content"
+       android:layout_height="64px"
+       android:drawableLeft="@mipmap/main_three_s"
+       android:gravity="center_vertical"
+       android:text="现居住地：浙江宁波鄞州世纪大道华东城1602"
+       android:textColor="@color/maintextColorone"
+       android:textSize="31px" />
+   <TextView
+       android:id="@+id/native_address"
+       android:drawablePadding="10dp"
+       android:layout_width="wrap_content"
+       android:layout_height="64px"
+       android:drawableLeft="@mipmap/main_three_s"
+       android:gravity="center_vertical"
+       android:text="户口所在地：现居住地浙江宁波鄞州世纪大道华东城1602"
+       android:textColor="@color/maintextColorone"
+       android:textSize="31px" />
+   <View
+       android:layout_marginTop="8dp"
+       android:layout_below="@+id/h1"
+       android:layout_width="match_parent"
+       android:layout_height="0.5dp"
+       android:background="#FFFFFF" />
+   <TextView
+       android:layout_marginTop="20dp"
+       android:layout_width="154px"
+       android:layout_height="50px"
+       android:text="教育经历"
+       android:textColor="#0A0A0A"
+       android:textSize="38px"/>
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/eduRecyclerview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+   <TextView
+       android:layout_marginTop="20dp"
+       android:layout_width="154px"
+       android:layout_height="50px"
+       android:text="家庭成员"
+       android:textColor="#0A0A0A"
+       android:textSize="38px"/>
+
+     <android.support.v7.widget.RecyclerView
+         android:id="@+id/familyRecyclerview"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"/>
+   <TextView
+       android:layout_marginTop="20dp"
+       android:layout_width="154px"
+       android:layout_height="50px"
+       android:text="有无受过奖励或惩罚"
+       android:textColor="#0A0A0A"
+       android:textSize="38px"/>
+     <android.support.v7.widget.RecyclerView
+         android:id="@+id/awardRecyclerview"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"/>
+  </LinearLayout>
+
+ 
+ 
+</android.support.v4.widget.NestedScrollView>
+</LinearLayout>

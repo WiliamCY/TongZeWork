@@ -1,0 +1,101 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.example.administrator.tongze"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [
+                GETUI_APP_ID : "cKPGNVZcaS7iuTW26B7qR",
+                GETUI_APP_KEY : "wj86xL8OsO6ssxd0yLVuG3",
+                GETUI_APP_SECRET : "X2RQwbpBTL6RymLyPsflb2"
+        ]
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "x86", "mips"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    productFlavors {
+    }
+}
+repositories {
+    maven {
+        url "https://jitpack.io"
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0-alpha3'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.google.code.gson:gson:2.6.2'
+    implementation'com.azoft.carousellayoutmanager:carousel:1.2.1'
+    //butterknife
+    implementation 'com.jakewharton:butterknife:8.4.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+
+//retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+// okHttp
+    implementation 'com.squareup.okhttp3:okhttp:3.4.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+//picasso
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.jcodecraeer:xrecyclerview:1.5.9'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.zhy:percent-support-extends:1.1.1'
+    implementation 'com.hjq:xxpermissions:2.0'
+    implementation 'com.jaeger.statusbarutil:library:1.5.1'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:cardview-v7:26.0.+'
+    implementation 'com.ashokvarma.android:bottom-navigation-bar:2.0.4'
+    implementation 'com.github.hackware1993:MagicIndicator:1.5.0'
+    implementation 'github.hellocsl:GalleryLayoutManager:1.0.6'
+    implementation 'com.squareup.okhttp3:okhttp:3.2.0'
+    implementation 'com.zhy:okhttputils:2.4.1'
+    implementation 'com.google.code.gson:gson:2.2.4'
+    implementation 'com.squareup.retrofit:retrofit:2.0.0-beta2'
+    implementation 'com.squareup.retrofit:retrofit-converters:2.0.0-beta2'
+    implementation 'com.squareup.okio:okio:1.11.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.5.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.squareup.retrofit:converter-gson:2.0.0-beta2'
+    implementation 'com.squareup.okhttp:logging-interceptor:2.7.5'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.getui:sdk:2.12.4.0'
+    implementation 'org.litepal.android:core:1.6.1'
+    implementation 'com.hjq:xxpermissions:3.5'
+    implementation 'com.bigkoo:alertview:1.0.3'
+    implementation 'com.contrarywind:Android-PickerView:4.1.6'
+    implementation 'com.squareup.okhttp:logging-interceptor:2.7.5'
+    implementation 'com.squareup.retrofit:converter-gson:2.0.0-beta2'
+    implementation 'com.squareup:otto:1.3.8'
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    implementation 'cn.bingoogolapple:bga-refreshlayout:1.1.8@aar'
+    implementation 'commons-codec:commons-codec:20041127.091804'
+    implementation 'com.github.bumptech.glide:glide:4.3.1'
+    implementation 'com.baoyz.swipemenulistview:library:1.3.0'
+    implementation 'com.baoyz.actionsheet:library:1.1.5'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.facebook.fresco:fresco:1.1.0'
+
+    }
+

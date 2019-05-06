@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layput_one1"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="200px">
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/BasicInformation"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:layout_height="120px"
+            android:background="@drawable/select_usermessage_background"
+            android:gravity="center"
+            android:text="基础信息"
+            android:textSize="36px" />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/PastExperience"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:layout_height="120px"
+            android:background="@drawable/select_usermessage_background"
+            android:gravity="center"
+            android:text="过往经历"
+            android:textSize="36px" />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/ResumeAattachments"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:layout_height="120px"
+            android:background="@drawable/select_usermessage_background"
+            android:gravity="center"
+            android:text="简历附件"
+            android:textSize="36px" />
+
+        <TextView
+            android:id="@+id/pass"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:layout_height="120px"
+            android:background="@mipmap/select_backs"
+            android:gravity="center"
+            android:text="PASS"
+            android:textColor="#FFFFFF"
+            android:textSize="36px" />
+
+    </LinearLayout>
+    <View
+        android:id="@+id/view1"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/layput_one1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#FFFFFF" />
+    <FrameLayout
+        android:layout_below="@+id/view1"
+        android:layout_gravity="right"
+        android:id="@+id/fragment_containerss"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+</RelativeLayout>
